@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="VarnitGoogleSearchTestSute">
+    <listeners>
+        <listener class-name="com.varnit.inscale.listener.ExtentReporter"/>
+    </listeners>
+    <test name="GoogleSearchTest">
+        <parameter name="keyword" value="topdanmark"/>
+        <classes>
+            <class name="com.varnit.inscale.tests.GoogleSearchTest"/>
+        </classes>
+
+    </test>
+
+
+</suite>
