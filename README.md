@@ -18,3 +18,5 @@ There are 2 testNG.xml files present under resources folder.
 
 ## Note: I have used only ChromeDriver and firefoxDriver to do the cross browser testing. Also, browser driver .exe files for mac are present under resources folder.
 In case, you are using windows, please download the replace the .exe browser drives files and change the path format in the base class and test class files under src/java/test folder.
+
+<img width="1425" alt="report" src="https://user-images.githubusercontent.com/16473120/53318306-443e1c00-38e8-11e9-996d-3bd565535cd3.png">
